@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.getordering.firenslice" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <name>Fire N Slice</name>
+    <description>
+        Fire N Slice - Truganina, Mobile App for online order and exclusive deals.
+    </description>
+    <author email="info@getordering.com.au" href="https://www.getordering.com.au/">
+        Get Ordering
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <icon density="mdpi" src="www/resources/img/192.png" />
+    <splash src="www/resources/img/192.png" />
+    <allow-intent href="market:*" />
+    <icon density="ldpi" src="www/resources/img/36.png" />
+    <icon density="mdpi" src="www/resources/img/48.png" />
+    <icon density="hdpi" src="www/resources/img/72.png" />
+    <icon density="xhdpi" src="www/resources/img/96.png" />
+    <icon density="xxhdpi" src="www/resources/img/144.png" />
+    <icon density="xxxhdpi" src="www/resources/img/192.png" />
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="phonegap-version" value="cli-9.0.0" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashMaintainAspectRatio" value="true" />
+    <preference name="SplashScreenWidth" value="192" />
+    <preference name="SplashScreenHeight" value="192" />
+    <preference name="SplashScreenBackgroundColor" value="#000" />
+    <preference name="fullscreen" value="true" />
+</widget>
